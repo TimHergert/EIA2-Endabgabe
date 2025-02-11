@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+
+        text-align: center;
+    
+    
+}
+
+.controls {
+    width: 25%;
+    padding: 1rem;
+    background: #5a5859;
+    box-sizing: border-box;
+}
+
+.parameters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 200px;
+}
+
+.parameters label {
+    font-weight: bold;
+}
+
+.parameters input {
+    width: 100%;
+}
+.preview-area {
+    position: relative;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.preview-area h2 {
+    color: #ffffff;
+}

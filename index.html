@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firework</title>
+    <link rel="stylesheet" href="firework.css">
+    <script src="firework.js"></script>
+    <script src="particle.js"></script>
+    <script src="main.js"></script>
+    <script src="vector.js"></script>
+</head>
+<body>
+<h1>Firework</h1>
+<div class="container"></div>
+<aside class="controls">
+<div class="firework-editor"></div>
+
+
+
+<div class="parameters">
+
+    <label for="FireworkColor">Colors</label>
+    <input type="color" id="FireworkColor" value="#ff0000">
+
+    
+
+    <label for="particleSize">Firework size</label>
+    <input type="range" id="particleSize" min="1" max="10" value="3">
+
+    <label for="particleCount">Particle Count</label>
+    <input type="range" id="particleCount" min="10" max="100" value="50">
+
+    <label for="FireworkSize">Particle Size</label>
+    <input type="range" id="FireworkSize" min="1" max="10" value="3">
+</div>
+
+<div class="buttons">
+    <button id="saveButton">Save</button>
+    <button id="deleteButton">Delete</button>
+</div>
+</aside>
+
+
+<main class="preview-area">
+    <h2>Simulation</h2>
+    <canvas id="previewCanvas" width="500" height="400"></canvas>
+</main>
+    
+
+<aside class="saved-Firework">
+    <select id="savedFirework">
+        <option value="">saved Firework</option>
+    </select>
+</aside>
+</div>
+
+
+</body>
+</html>
